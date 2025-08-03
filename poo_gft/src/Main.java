@@ -63,11 +63,11 @@ public class Main {
 	    				}
 	    				break;
 	    			default: 
-	    				System.out.println("Opção inválida. Tente novamente.");
-	    							
+	    				if (option != 0)System.out.println("Opção inválida. Tente novamente.");	
 	    	}
 	    }
 	    while(option != 0);
+    	System.out.println("Obrigado por utilizar nosso banco.");
 	    sc.close();
 	}
 }

@@ -74,6 +74,7 @@ public class ContaBancaria {
 		        	double restante = valorBoleto - this.saldo;
 		        	saldo = 0;
 		        	this.chequeUsado += restante;
+		        	this.chequeEspecial -= this.chequeUsado;
 		        }
 		        
 		        if (this.chequeUsado > 0) {
