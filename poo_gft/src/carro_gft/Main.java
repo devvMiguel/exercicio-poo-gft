@@ -11,7 +11,7 @@ public class Main {
 		
 		System.out.println("*****************************************************");
 	    System.out.println("                                                     ");
-	    System.out.println("                BANCO DO BRAZIL COM Z                ");
+	    System.out.println("                Opala Preto!                ");
 	    System.out.println("                                                     ");
 	    System.out.println("*****************************************************");
 	    System.out.println("                                                     ");
